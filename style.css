@@ -104,8 +104,8 @@ ul{
     align-items: center;
   }
   .flip-card-back {
-    background: white;
-    color: white;
+    background: rgb(235, 235, 235);
+    color: black;
     transform: rotateY(180deg);
     z-index: 1;
     display: flex;
