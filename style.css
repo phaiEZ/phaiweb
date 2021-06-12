@@ -50,15 +50,17 @@ ul{
 }
 
 #menu {
-    height: 200px;
+  position: fixed;
+    height: 100px;
     width: 1200px;
+    left: 500px;
     float: right;
     margin-right: 150px;
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
     font-weight: bold; 
-    /* border: 1px solid white; */
-}
+   /* border: 1px solid white; */
+} 
 
 
 .flip-card {
