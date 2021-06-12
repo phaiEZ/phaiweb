@@ -112,6 +112,41 @@ ul{
     justify-content: center;
     align-items: center;
   }
+  #bar{
+    position: fixed;
+    bottom:90px;
+    background-color: gray;
+    width: 100px;
+    height: 10px;
+  }
+  #closebut{
+    position: fixed;
+    border-radius: 50%;
+    height: 7px;
+    width: 7px;
+    left: 1px;
+    top :1px;
+    background-color: #FB1F07;
+}
+  #zoombut{
+  position: fixed;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  left: 10px;
+  top :1px;
+  background-color: #FFA708;
+}
+#minbut{
+  position: fixed;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  left: 19px;
+  top :1px;
+  background-color: #04A402;
+
+}
   h3 {
     font-size: 20px;
     font-family: Verdana, sans-serif;
