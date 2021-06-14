@@ -99,6 +99,7 @@ ul{
   }
   .flip-card-front {
     background-image: url("img/dwad.png");
+    background-repeat:no-repeat;
     color: black;
     z-index: 2;
     display: flex;
@@ -117,7 +118,7 @@ ul{
   #bar{
     position: fixed;
     bottom:90px;
-    background-color: gray;
+    background-color: #818181;
     width: 100px;
     height: 10px;
   }
