@@ -1,158 +1,154 @@
-#header{
-    width: 1500px;
-    height: 200px;
-    /* border: 1px solid grey; */
-    margin:0 auto;
+#header {
+  width: 1500px;
+  height: 200px;
+  /* border: 1px solid grey; */
+  margin: 0 auto;
 }
 body {
-    background: black;
-    color : white;
-    font-family: 'Noto Sans JP', sans-serif;
+  background: black;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color : white;
+a {
+  text-decoration: none;
+  color: white;
 }
 #logo {
-    height: 100px;
-    width: 100px;
-    float: left;
-    padding-left: 13px;
-    padding-top: 4px;
-    object-fit: cover;
-
+  height: 100px;
+  width: 100px;
+  float: left;
+  padding-left: 13px;
+  padding-top: 4px;
+  object-fit: cover;
 }
-#logo a img{
-    border: 1px solid gray;
-}
-
-ul{
-    list-style: none;
+#logo a img {
+  border: 1px solid gray;
 }
 
-#menu ul li{
-    height: auto;
-    float: right;
-    margin: 0 15px;
-    padding-right: 35px;
-    display: inline;
-    border-right: 1px  solid white;
-    transition: font-size 0.2s linear;
+ul {
+  list-style: none;
 }
 
-#menu ul li:hover{
-    font-size: 32px;
+#menu ul li {
+  height: auto;
+  float: right;
+  margin: 0 15px;
+  padding-right: 35px;
+  display: inline;
+  border-right: 1px solid white;
+  transition: font-size 0.2s linear;
 }
 
-#menu ul  :first-child{
-    border-right: none;
+#menu ul li:hover {
+  font-size: 32px;
+}
+
+#menu ul :first-child {
+  border-right: none;
 }
 
 #menu {
-  position: fixed;
-    height: 100px;
-    width: 1200px;
-    left: 500px;
-    float: right;
-    margin-right: 150px;
-    font-family: 'Roboto Mono', monospace;
-    font-size: 30px;
-    font-weight: bold; 
-   /* border: 1px solid white; */
-} 
-
+  height: 100px;
+  width: 1200px;
+  left: 500px;
+  float: right;
+  margin-right: 150px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 30px;
+  font-weight: bold;
+  /* border: 1px solid white; */
+}
 
 .flip-card {
-    background-color: transparent;
-    width: 100px;
-    height: 100px;
-    perspective: 1000px;
-    /* border: 1px solid white; */
-    float: left;
-  }
-  
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .flip-card:focus {
-      outline: 0;
-  }
-  
-  .flip-card:hover .flip-card-inner,
-  .flip-card:focus .flip-card-inner{
-    transform: rotateY(180deg);
-  }
-  .flip-card-front,
-  .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-  .flip-card-front {
-    background-image: url("img/dwad.png");
-    background-repeat:no-repeat;
-    color: black;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .flip-card-back {
-    background: rgb(235, 235, 235);
-    color: black;
-    transform: rotateY(180deg);
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  #bar{
-    position: fixed;
-    bottom:90px;
-    background-color: #818181;
-    width: 100px;
-    height: 10px;
-  }
-  #closebut{
-    position: fixed;
-    border-radius: 50%;
-    height: 7px;
-    width: 7px;
-    left: 1px;
-    top :1px;
-    background-color: #FB1F07;
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  perspective: 1000px;
+  /* border: 1px solid white; */
+  float: left;
 }
-  #zoombut{
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:focus {
+  outline: 0;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card:focus .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.flip-card-front {
+  background-image: url("img/dwad.png");
+  background-repeat: no-repeat;
+  color: black;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flip-card-back {
+  background: rgb(235, 235, 235);
+  color: black;
+  transform: rotateY(180deg);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#bar {
+  position: fixed;
+  bottom: 90px;
+  background-color: #818181;
+  width: 100px;
+  height: 10px;
+}
+#closebut {
+  position: fixed;
+  border-radius: 50%;
+  height: 7px;
+  width: 7px;
+  left: 1px;
+  top: 1px;
+  background-color: #fb1f07;
+}
+#zoombut {
   position: fixed;
   border-radius: 50%;
   height: 7px;
   width: 7px;
   left: 10px;
-  top :1px;
-  background-color: #FFA708;
+  top: 1px;
+  background-color: #ffa708;
 }
-#minbut{
+#minbut {
   position: fixed;
   border-radius: 50%;
   height: 7px;
   width: 7px;
   left: 19px;
-  top :1px;
-  background-color: #04A402;
-
+  top: 1px;
+  background-color: #04a402;
 }
-  h3 {
-    font-size: 20px;
-    font-family: Verdana, sans-serif;
-    font-weight: bold;
-    color: #fff;
-  }
+h3 {
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  font-weight: bold;
+  color: #fff;
+}
